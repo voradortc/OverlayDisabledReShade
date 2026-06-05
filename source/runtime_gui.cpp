@@ -1769,7 +1769,7 @@ void reshade::runtime::draw_gui_home()
 			if (_preset_is_incomplete)
 				ImGui::OpenPopup("##presetincomplete");
 
-			_show_splash = true;
+			_show_splash = false;
 			_preset_is_modified = false;
 			_last_preset_switching_time = _last_present_time;
 			_is_in_preset_transition = true;
